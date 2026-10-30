@@ -1,4 +1,4 @@
-### Hi, I'm Valter — Software Engineer (backend, cloud, security)
+### Hi, I'm Valter — Full Stack Software Engineer | Cloud
 
 I build transactional systems that stay correct under concurrency, and the platforms that run them.
 
