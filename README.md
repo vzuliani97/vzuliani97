@@ -9,7 +9,8 @@ Based in Medellín, Colombia. Open to remote opportunities across LATAM and Euro
 ### Selected work
 
 **[Yamesi Core](https://github.com/vzuliani97/yamesi): Business Operations & Traceability System**
-NestJS, React, PostgreSQL and S3-compatible storage. Tested business rules for gold traceability, gap-free invoicing under concurrency, a daily closing that locks the day, and an audit trail. It also has an optional local assistant that can only call read-only tools.
+[![Yamesi Core: point of sale with the invoice panel](https://raw.githubusercontent.com/vzuliani97/yamesi/main/docs/screenshots/01-sell-invoices.png)](https://github.com/vzuliani97/yamesi)
+NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (19% VAT per line, CUFE and QR), gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail.
 [Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
 
 **[OpsCircuit](https://github.com/vzuliani97/opscircuit): Cloud Delivery & Incident Automation Lab**
@@ -26,8 +27,6 @@ NestJS, React, PostgreSQL and S3-compatible storage. Tested business rules for g
 NestJS, PostgreSQL and React: idempotency, concurrency control, an append-only ledger and an HMAC-signed B2B API. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
 [Source](https://github.com/vzuliani97/atomictrail) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
 
-The portfolio projects are independent reconstructions with synthetic data and contain no employer code. They were built with AI-assisted tools and verified through tests and CI.
-
 ### Core stack
 
 **Software:** TypeScript, Node.js, NestJS, React, Angular, SQL, PostgreSQL, REST APIs
@@ -39,3 +38,5 @@ The portfolio projects are independent reconstructions with synthetic data and c
 ### Contact
 
 [LinkedIn](https://www.linkedin.com/in/valter-zuliani-70152a97) · Systems Engineer (Universidad de Medellín) · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native, English C1
+
+<sub>Portfolio projects are independent reconstructions with synthetic data and no employer code, built with AI-assisted tooling and verified through tests and CI.</sub>
