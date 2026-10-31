@@ -1,14 +1,41 @@
-### Hi, I'm Valter — Full Stack Software Engineer | Cloud
+# Hi, I'm Valter
 
-I build transactional systems that stay correct under concurrency, and the platforms that run them.
+## Software Engineer | Full Stack, Cloud & DevOps
 
-| Project | What it shows |
-|---|---|
-| [PayPoint](https://github.com/vzuliani97/paypoint) | NestJS + PostgreSQL payments: idempotency, ledger, HMAC-signed B2B API, 70-way concurrency tests |
-| [PlatformOps](https://github.com/vzuliani97/platformops) | Kubernetes, Argo CD, Prometheus/Grafana, Terraform for AWS, game-day drills with a postmortem |
-| [Yamesi](https://github.com/vzuliani97/yamesi) | Business accounting: gap-free invoicing, daily cash closing, S3, secure local AI assistant |
-| [mvp](https://github.com/vzuliani97/mvp) | Reservation API that prevents overselling |
+I build, deploy and operate full-stack applications, APIs and cloud infrastructure using TypeScript, Node.js, React and AWS.
 
-**Stack:** TypeScript, Node.js, NestJS, React, PostgreSQL, Docker, Kubernetes, Terraform, AWS, GitHub Actions
+Based in Medellín, Colombia. Open to remote opportunities across LATAM and Europe and to relocation.
 
-Systems Engineer · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native · English C1 · Medellín, Colombia
+### Selected work
+
+**[Yamesi Core](https://github.com/vzuliani97/yamesi): Business Operations & Traceability System**
+NestJS, React, PostgreSQL and S3-compatible storage. Tested business rules for gold traceability, gap-free invoicing under concurrency, a daily closing that locks the day, and an audit trail. It also has an optional local assistant that can only call read-only tools.
+[Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
+
+**[OpsCircuit](https://github.com/vzuliani97/opscircuit): Cloud Delivery & Incident Automation Lab**
+[![OpsCircuit: n8n incident workflow between Alertmanager and on-call](https://raw.githubusercontent.com/vzuliani97/opscircuit/main/docs/screenshots/n8n-incident-intake.png)](https://github.com/vzuliani97/opscircuit/tree/main/ops-automation)
+- **Platform:** Kubernetes with GitOps (Argo CD), Prometheus/Grafana and security checks in CI.
+- **Drills:** outage drills with a postmortem.
+- **Incident workflow:** a self-hosted n8n workflow that validates, deduplicates, enriches and pages, with replayable dead letters and 15 integration tests in CI.
+- **Terraform for AWS:** validated in CI, never applied.
+
+[Source](https://github.com/vzuliani97/opscircuit) · [Incident lab verification](https://github.com/vzuliani97/opscircuit/blob/main/docs/INCIDENT_AUTOMATION_VERIFICATION.md) · [Postmortem](https://github.com/vzuliani97/opscircuit/blob/main/docs/incidents/2026-10-30-postmortem.md)
+
+**[AtomicTrail](https://github.com/vzuliani97/atomictrail): Transaction Reliability Lab**
+[![AtomicTrail: cashier view with an automatic refund and the balance ledger](https://raw.githubusercontent.com/vzuliani97/atomictrail/main/docs/screenshots/02-cashier-sale.png)](https://github.com/vzuliani97/atomictrail)
+NestJS, PostgreSQL and React: idempotency, concurrency control, an append-only ledger and an HMAC-signed B2B API. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
+[Source](https://github.com/vzuliani97/atomictrail) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
+
+The portfolio projects are independent reconstructions with synthetic data and contain no employer code. They were built with AI-assisted tools and verified through tests and CI.
+
+### Core stack
+
+**Software:** TypeScript, Node.js, NestJS, React, Angular, SQL, PostgreSQL, REST APIs
+
+**Cloud & delivery:** AWS, Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI/CD, Linux
+
+**Working knowledge (portfolio):** n8n, demonstrated in a self-hosted incident lab with authenticated webhooks, validation, deduplication, enrichment, retries and failure handling
+
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/valter-zuliani-70152a97) · Systems Engineer (Universidad de Medellín) · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native, English C1
