@@ -1,4 +1,4 @@
-<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 54, 49 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
+<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 54, 52 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
 
 <p align="center">
   <a href="https://vzuliani97.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-vzuliani97.github.io-0f766e?style=for-the-badge"></a>
@@ -12,9 +12,9 @@
 
 Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation · Spanish and Italian native, English C1
 
-| 118 | Since 2020 | 100 | C1 |
+| 121 | Since 2020 | 100 | C1 |
 |:---:|:---:|:---:|:---:|
-| automated tests across 3 portfolio systems (54 + 49 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
+| automated tests across 3 portfolio systems (54 + 52 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
 
 ## Selected work
 
@@ -79,29 +79,29 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 [Case study](https://vzuliani97.github.io/work/opscircuit/) · [Source](https://github.com/vzuliani97/opscircuit) · [Every process, step by step](https://github.com/vzuliani97/opscircuit#processes-step-by-step) · [Incident lab verification](https://github.com/vzuliani97/opscircuit/blob/main/docs/INCIDENT_AUTOMATION_VERIFICATION.md) · [Postmortem](https://github.com/vzuliani97/opscircuit/blob/main/docs/incidents/2026-10-30-postmortem.md)
 
-### AtomicTrail · Transaction Reliability Lab
+### NekoBet · Live Sportsbook, Casino & Wallet Platform
 
-<a href="https://vzuliani97.github.io/work/atomictrail/"><img src="assets/atomictrail-cashier.jpg" width="100%" alt="AtomicTrail cashier: store balance, top-up sales and a rejected sale refunded exactly once"></a>
+<a href="https://vzuliani97.github.io/work/nekobet/"><img src="assets/nekobet-betting.jpg" width="100%" alt="NekoBet live sportsbook: matches by league with moving 1X2 odds, a link to every market, the bet slip and my bets"></a>
 
-**What it is for:** stores in a point-of-sale network spend one prepaid balance through a portal and a partner API. The balance must stay right when two cashiers race, a client retries, a provider times out or reverses an operation.
+**What it is for:** a point-of-sale network where every store sells live sports bets, casino games and prepaid top-ups from one balance, from a portal or a partner API. Odds, games and the carrier are simulated with fictitious data; the engineering goal is a balance that never goes wrong.
 
 **What I built:**
-- Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements.
-- Idempotent sales with per-key advisory locks, and an HMAC-signed B2B API for partners.
-- Simulated scenarios that stress the same guarantees: live odds over Server-Sent Events with `ODDS_CHANGED` refusals and settlement paid once, and a seamless casino wallet with idempotent provider callbacks.
-- React cashier and admin; a login lockout; CI publishes images that Argo CD deploys in OpsCircuit.
+- Sportsbook: a simulated odds feed with one leader that prices four markets per match from one goal model (match result, double chance, total goals 2.5, both teams to score), Server-Sent Events to the browser, `ODDS_CHANGED` refusals and every market settled once.
+- Casino: a seamless wallet with idempotent, HMAC-signed provider callbacks and rollback tombstones; a lobby of five fictitious games with an animated slot machine.
+- Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements; idempotent sales with per-key advisory locks.
+- An HMAC-signed B2B API, a login lockout, and the React cashier, sportsbook, casino and admin; CI publishes images that Argo CD deploys in OpsCircuit.
 
-`49 tests` · `70 races → 50 approved` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
+`52 tests` · `4 live markets per match` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
 
 <table>
   <tr>
-    <td width="33%"><a href="https://github.com/vzuliani97/atomictrail#5-administer-the-network"><img src="assets/atomictrail-admin.jpg" alt="Admin: points of sale, credits and network sales"></a><br><sub>Admin: points of sale and credits</sub></td>
-    <td width="33%"><a href="https://github.com/vzuliani97/atomictrail#2-place-a-live-bet-simulated-scenario"><img src="assets/atomictrail-betting.jpg" alt="Simulated scenario: live matches with moving odds, bet slip and my bets"></a><br><sub>Simulated scenario: live odds</sub></td>
-    <td width="33%"><a href="https://github.com/vzuliani97/atomictrail#3-play-the-casino-simulated-scenario-seamless-wallet"><img src="assets/atomictrail-casino.jpg" alt="Simulated scenario: casino wallet and the ledger"></a><br><sub>Simulated scenario: casino wallet</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#2-place-a-live-bet"><img src="assets/nekobet-event.jpg" alt="Event page: scoreboard and every market, with the bet slip"></a><br><sub>Event page with every market</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#3-play-the-casino-seamless-wallet"><img src="assets/nekobet-casino.jpg" alt="Casino lobby and a slot machine paying through the wallet"></a><br><sub>Casino lobby and slot machine</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#1-sell-a-top-up"><img src="assets/nekobet-cashier.jpg" alt="Cashier: balance, top-ups and a refunded rejection"></a><br><sub>Cashier: top-ups and refunds</sub></td>
   </tr>
 </table>
 
-[Case study](https://vzuliani97.github.io/work/atomictrail/) · [Source](https://github.com/vzuliani97/atomictrail) · [Every process, step by step](https://github.com/vzuliani97/atomictrail#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
+[Case study](https://vzuliani97.github.io/work/nekobet/) · [Source](https://github.com/vzuliani97/nekobet) · [Every process, step by step](https://github.com/vzuliani97/nekobet#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/nekobet/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/nekobet/blob/main/DESIGN_WALKTHROUGH.md)
 
 ## What I have worked on
 
@@ -114,7 +114,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 - Investigated production incidents through logs and monitoring, and applied access controls to cloud resources.
 
 **Software Developer (Full Stack / Cloud) · Código Digital Codi S.A.S.** · Medellín · Oct 2021 – Feb 2023
-- Developed full-stack modules and Node.js APIs for transactional, iGaming and healthcare platforms with Angular, React, TypeScript, PHP and MySQL; built a B2B API secured with key pairs and IP allowlisting; and managed AWS infrastructure and deployments with EC2, VPC, VPN, EKS, Terraform, Docker and GitLab CI/CD.
+- Developed full-stack modules and Node.js APIs for transactional platforms, white-label iGaming platforms for several countries and healthcare applications with Angular, React, TypeScript, PHP and MySQL; built a B2B API secured with key pairs and IP allowlisting; and managed AWS infrastructure and deployments from staging to production with EC2, VPC, VPN, EKS, Terraform, Docker and GitLab CI/CD.
 - Worked on the real-time sports betting and casino integration of the point-of-sale portal: the live-odds frontend, the provider integration, the betting backend (bet validation, balance and settlement) and its infrastructure.
 
 **Software Developer · LaCompay Colombia** · Medellín · Nov 2020 – Apr 2021
