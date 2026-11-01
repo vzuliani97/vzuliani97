@@ -12,7 +12,7 @@ Based in Medellín, Colombia. Open to remote opportunities across LATAM and Euro
 
 **[Yamesi Core](https://github.com/vzuliani97/yamesi): Business Operations & Traceability System**
 [![Yamesi Core: point of sale with the store's catalog photos and the invoice panel](https://raw.githubusercontent.com/vzuliani97/yamesi/main/docs/screenshots/01-sell-invoices.png)](https://github.com/vzuliani97/yamesi)
-For a real jewelry store: the demo runs on 44 pieces from its public catalog (reference, gold weight, size, price and photo). NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (19% VAT per line, CUFE and QR), an inventory portal with photo upload, gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail. 53 tests.
+For a real jewelry store: the demo runs on 44 pieces from its public catalog (reference, gold weight, size, price and photo). NestJS, React, PostgreSQL and S3-compatible storage. A Colombian-style invoice PDF for demonstration (19% VAT per line, CUFE and QR; not transmitted to the DIAN), an inventory portal with photo upload, gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail. 53 tests.
 [Case study](https://vzuliani97.github.io/work/yamesi/) · [Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
 
 **[OpsCircuit](https://github.com/vzuliani97/opscircuit): Cloud Delivery & Incident Automation Lab**
@@ -25,8 +25,8 @@ For a real jewelry store: the demo runs on 44 pieces from its public catalog (re
 [Case study](https://vzuliani97.github.io/work/opscircuit/) · [Source](https://github.com/vzuliani97/opscircuit) · [Incident lab verification](https://github.com/vzuliani97/opscircuit/blob/main/docs/INCIDENT_AUTOMATION_VERIFICATION.md) · [Postmortem](https://github.com/vzuliani97/opscircuit/blob/main/docs/incidents/2026-10-30-postmortem.md)
 
 **[AtomicTrail](https://github.com/vzuliani97/atomictrail): Transaction Reliability Lab**
-[![AtomicTrail: live betting board with moving odds and a bet slip](https://raw.githubusercontent.com/vzuliani97/atomictrail/main/docs/screenshots/04-live-betting.png)](https://github.com/vzuliani97/atomictrail)
-NestJS, PostgreSQL and React: idempotent top-ups, live sports betting over Server-Sent Events, a seamless-wallet casino, an append-only ledger and an HMAC-signed B2B API. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
+[![AtomicTrail: cashier with the store balance, top-up sales and a refunded rejection](https://raw.githubusercontent.com/vzuliani97/atomictrail/main/docs/screenshots/02-cashier-sale.png)](https://github.com/vzuliani97/atomictrail)
+A TypeScript and PostgreSQL system that keeps balances correct under concurrent requests, retries, provider timeouts and reversals: idempotency, an append-only ledger, HMAC-signed integrations and real-time events. Live betting and a casino wallet are simulated scenarios. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
 [Case study](https://vzuliani97.github.io/work/atomictrail/) · [Source](https://github.com/vzuliani97/atomictrail) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
 
 ### Core stack
