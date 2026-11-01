@@ -11,8 +11,8 @@ Based in Medellín, Colombia. Open to remote opportunities across LATAM and Euro
 ### Selected work
 
 **[Yamesi Core](https://github.com/vzuliani97/yamesi): Business Operations & Traceability System**
-[![Yamesi Core: point of sale with the invoice panel](https://raw.githubusercontent.com/vzuliani97/yamesi/main/docs/screenshots/01-sell-invoices.png)](https://github.com/vzuliani97/yamesi)
-NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (19% VAT per line, CUFE and QR), gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail.
+[![Yamesi Core: point of sale with the store's catalog photos and the invoice panel](https://raw.githubusercontent.com/vzuliani97/yamesi/main/docs/screenshots/01-sell-invoices.png)](https://github.com/vzuliani97/yamesi)
+For a real jewelry store: the demo runs on 44 pieces from its public catalog (reference, gold weight, size, price and photo). NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (19% VAT per line, CUFE and QR), an inventory portal with photo upload, gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail. 53 tests.
 [Case study](https://vzuliani97.github.io/work/yamesi/) · [Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
 
 **[OpsCircuit](https://github.com/vzuliani97/opscircuit): Cloud Delivery & Incident Automation Lab**
