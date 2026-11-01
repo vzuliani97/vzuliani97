@@ -4,7 +4,7 @@
 
 I build, deploy and operate full-stack applications, APIs and cloud infrastructure using TypeScript, Node.js, React and AWS.
 
-Based in Medellín, Colombia. Open to remote opportunities across LATAM and Europe and to relocation.
+Based in Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation.
 
 **Portfolio:** [vzuliani97.github.io](https://vzuliani97.github.io): case studies with architecture, verification and real screenshots.
 
