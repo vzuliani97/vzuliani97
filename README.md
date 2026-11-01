@@ -6,12 +6,14 @@ I build, deploy and operate full-stack applications, APIs and cloud infrastructu
 
 Based in Medellín, Colombia. Open to remote opportunities across LATAM and Europe and to relocation.
 
+**Portfolio:** [vzuliani97.github.io](https://vzuliani97.github.io): case studies with architecture, verification and real screenshots.
+
 ### Selected work
 
 **[Yamesi Core](https://github.com/vzuliani97/yamesi): Business Operations & Traceability System**
 [![Yamesi Core: point of sale with the invoice panel](https://raw.githubusercontent.com/vzuliani97/yamesi/main/docs/screenshots/01-sell-invoices.png)](https://github.com/vzuliani97/yamesi)
 NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (19% VAT per line, CUFE and QR), gold traceability by lot, gap-free numbering under concurrency, a daily closing that locks the day, and an audit trail.
-[Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
+[Case study](https://vzuliani97.github.io/work/yamesi/) · [Source](https://github.com/vzuliani97/yamesi) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
 
 **[OpsCircuit](https://github.com/vzuliani97/opscircuit): Cloud Delivery & Incident Automation Lab**
 [![OpsCircuit: n8n incident workflow between Alertmanager and on-call](https://raw.githubusercontent.com/vzuliani97/opscircuit/main/docs/screenshots/n8n-incident-intake.png)](https://github.com/vzuliani97/opscircuit/tree/main/ops-automation)
@@ -20,12 +22,12 @@ NestJS, React, PostgreSQL and S3-compatible storage. A Colombian sales invoice (
 - **Incident workflow:** a self-hosted n8n workflow that validates, deduplicates, enriches and pages, with replayable dead letters and 15 integration tests in CI.
 - **Terraform for AWS:** validated in CI, never applied.
 
-[Source](https://github.com/vzuliani97/opscircuit) · [Incident lab verification](https://github.com/vzuliani97/opscircuit/blob/main/docs/INCIDENT_AUTOMATION_VERIFICATION.md) · [Postmortem](https://github.com/vzuliani97/opscircuit/blob/main/docs/incidents/2026-10-30-postmortem.md)
+[Case study](https://vzuliani97.github.io/work/opscircuit/) · [Source](https://github.com/vzuliani97/opscircuit) · [Incident lab verification](https://github.com/vzuliani97/opscircuit/blob/main/docs/INCIDENT_AUTOMATION_VERIFICATION.md) · [Postmortem](https://github.com/vzuliani97/opscircuit/blob/main/docs/incidents/2026-10-30-postmortem.md)
 
 **[AtomicTrail](https://github.com/vzuliani97/atomictrail): Transaction Reliability Lab**
-[![AtomicTrail: cashier view with an automatic refund and the balance ledger](https://raw.githubusercontent.com/vzuliani97/atomictrail/main/docs/screenshots/02-cashier-sale.png)](https://github.com/vzuliani97/atomictrail)
-NestJS, PostgreSQL and React: idempotency, concurrency control, an append-only ledger and an HMAC-signed B2B API. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
-[Source](https://github.com/vzuliani97/atomictrail) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
+[![AtomicTrail: live betting board with moving odds and a bet slip](https://raw.githubusercontent.com/vzuliani97/atomictrail/main/docs/screenshots/04-live-betting.png)](https://github.com/vzuliani97/atomictrail)
+NestJS, PostgreSQL and React: idempotent top-ups, live sports betting over Server-Sent Events, a seamless-wallet casino, an append-only ledger and an HMAC-signed B2B API. The concurrency evidence is a local, reproducible experiment, not a production benchmark.
+[Case study](https://vzuliani97.github.io/work/atomictrail/) · [Source](https://github.com/vzuliani97/atomictrail) · [Concurrency experiment](https://github.com/vzuliani97/atomictrail/blob/main/docs/concurrency-experiment.md) · [Design walkthrough](https://github.com/vzuliani97/atomictrail/blob/main/DESIGN_WALKTHROUGH.md)
 
 ### Core stack
 
@@ -37,6 +39,6 @@ NestJS, PostgreSQL and React: idempotency, concurrency control, an append-only l
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/valter-zuliani-70152a97) · Systems Engineer (Universidad de Medellín) · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native, English C1
+[Portfolio](https://vzuliani97.github.io) · [LinkedIn](https://www.linkedin.com/in/valter-zuliani-70152a97) · Systems Engineer (Universidad de Medellín) · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native, English C1
 
 <sub>Portfolio projects are independent reconstructions with synthetic data and no employer code, built with AI-assisted tooling and verified through tests and CI.</sub>
