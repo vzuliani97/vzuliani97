@@ -41,4 +41,4 @@ A TypeScript and PostgreSQL system that keeps balances correct under concurrent 
 
 [Portfolio](https://vzuliani97.github.io) · [LinkedIn](https://www.linkedin.com/in/valter-zuliani-70152a97) · Systems Engineer (Universidad de Medellín) · Advanced Diploma in Cyber Security (Australia) · Spanish and Italian native, English C1
 
-<sub>Portfolio projects are independent reconstructions with synthetic data and no employer code, built with AI-assisted tooling and verified through tests and CI.</sub>
+<sub>Portfolio projects are independent reconstructions with synthetic data and no employer code, AI-assisted and verified through tests and CI.</sub>
