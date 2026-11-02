@@ -103,6 +103,19 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 [Case study](https://vzuliani97.github.io/work/nekobet/) · [Source](https://github.com/vzuliani97/nekobet) · [Every process, step by step](https://github.com/vzuliani97/nekobet#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/nekobet/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/nekobet/blob/main/DESIGN_WALKTHROUGH.md)
 
+### Escudo · Security Assessment of My Own Apps
+
+**What it is for:** attacking NekoBet, Yamesi and the OpsCircuit cluster the way a tester would, then fixing what breaks and keeping the attacks as tests.
+
+**What I found and fixed:**
+- A captured partner sale, replayed with a new idempotency key, was charged twice. The key is now part of the HMAC signature.
+- The example JWT secret was accepted at startup, so anyone could sign an admin token. The API now refuses it, and `make .env` generates random secrets.
+- Uploaded photos kept their GPS coordinates, sellers received the costs behind the admin-only margin, and the cluster's ports were open to the local network.
+
+`12 findings` · `CVSS 3.1` · `OWASP WSTG` · `35 attacks in CI` · `Node.js` · `Trivy` · `OWASP ZAP`
+
+[Report and findings](https://github.com/vzuliani97/escudo) · [Methodology](https://github.com/vzuliani97/escudo/blob/main/METHODOLOGY.md)
+
 ## What I have worked on
 
 **Full Stack Developer · Inversiones Zuliani S.A.S. (Yamesi)** · Medellín · May 2020 – Present
