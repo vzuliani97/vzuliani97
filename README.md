@@ -1,4 +1,4 @@
-<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 54, 52 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
+<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 54, 54 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
 
 <p align="center">
   <a href="https://vzuliani97.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-vzuliani97.github.io-0f766e?style=for-the-badge"></a>
@@ -12,9 +12,9 @@
 
 Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation · Spanish and Italian native, English C1
 
-| 121 | Since 2020 | 100 | C1 |
+| 123 | Since 2020 | 100 | C1 |
 |:---:|:---:|:---:|:---:|
-| automated tests across 3 portfolio systems (54 + 52 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
+| automated tests across 3 portfolio systems (54 + 54 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
 
 ## Selected work
 
@@ -81,23 +81,23 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 ### NekoBet · Live Sportsbook, Casino & Wallet Platform
 
-<a href="https://vzuliani97.github.io/work/nekobet/"><img src="assets/nekobet-betting.jpg" width="100%" alt="NekoBet live sportsbook: matches by league with moving 1X2 odds, a link to every market, the bet slip and my bets"></a>
+<a href="https://vzuliani97.github.io/work/nekobet/"><img src="assets/nekobet-betting.jpg" width="100%" alt="NekoBet live sportsbook: football, basketball, baseball and hockey with each sport's clock, moving odds, the bet slip and my bets"></a>
 
-**What it is for:** a point-of-sale network where every store sells live sports bets, casino games and prepaid top-ups from one balance, from a portal or a partner API. Odds, games and the carrier are simulated with fictitious data; the engineering goal is a balance that never goes wrong.
+**What it is for:** a point-of-sale network where every store sells live sports bets, casino games and prepaid top-ups from one balance, from a portal or a partner API. Everything runs in real time; the production betting platforms I worked on and their data are confidential, so this public version runs on a simulated feed. The engineering goal is a balance that never goes wrong.
 
 **What I built:**
-- Sportsbook: a simulated odds feed with one leader that prices four markets per match from one goal model (match result, double chance, total goals 2.5, both teams to score), Server-Sent Events to the browser, `ODDS_CHANGED` refusals and every market settled once.
-- Casino: a seamless wallet with idempotent, HMAC-signed provider callbacks and rollback tombstones; a lobby of five fictitious games with an animated slot machine.
-- Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements; idempotent sales with per-key advisory locks.
-- An HMAC-signed B2B API, a login lockout, and the React cashier, sportsbook, casino and admin; CI publishes images that Argo CD deploys in OpsCircuit.
+- A real-time sportsbook for football, basketball, baseball and ice hockey, each with its own clock and scoring model (Poisson goals and runs, a normal model of points, overtime and extra innings), results, double chance, totals and both teams to score, `ODDS_CHANGED` refusals and every market settled once.
+- An event page with a live tracker drawn for each sport (pitch, court, diamond or rink) that flashes on every score.
+- Casino: a seamless wallet with idempotent, HMAC-signed provider callbacks and rollback tombstones; a lobby of five games with an animated slot machine.
+- Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements; idempotent sales; an HMAC-signed B2B API; a login lockout; CI images that Argo CD deploys in OpsCircuit.
 
-`52 tests` · `4 live markets per match` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
+`54 tests` · `4 sports live` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
 
 <table>
   <tr>
-    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#2-place-a-live-bet"><img src="assets/nekobet-event.jpg" alt="Event page: scoreboard and every market, with the bet slip"></a><br><sub>Event page with every market</sub></td>
-    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#3-play-the-casino-seamless-wallet"><img src="assets/nekobet-casino.jpg" alt="Casino lobby and a slot machine paying through the wallet"></a><br><sub>Casino lobby and slot machine</sub></td>
-    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#1-sell-a-top-up"><img src="assets/nekobet-cashier.jpg" alt="Cashier: balance, top-ups and a refunded rejection"></a><br><sub>Cashier: top-ups and refunds</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#2-place-a-live-bet"><img src="assets/nekobet-event.jpg" alt="Football event: live tracker on the pitch, scoreboard and every market"></a><br><sub>Football: live tracker and markets</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#2-place-a-live-bet"><img src="assets/nekobet-basketball.jpg" alt="Basketball event: court tracker by quarter, winner and total points"></a><br><sub>Basketball: court tracker by quarter</sub></td>
+    <td width="33%"><a href="https://github.com/vzuliani97/nekobet#3-play-the-casino-seamless-wallet"><img src="assets/nekobet-casino.jpg" alt="Casino lobby and a slot machine paying x20 through the wallet"></a><br><sub>Casino: slot machine paying ×20</sub></td>
   </tr>
 </table>
 
@@ -151,4 +151,4 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 Systems Engineer, Universidad de Medellín · Advanced Diploma of IT (Cyber Security), Sydney
 
-<sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic, except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission). AI-assisted; verified through tests and CI.</sub>
+<sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic (production systems are confidential), except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission). AI-assisted; verified through tests and CI.</sub>
