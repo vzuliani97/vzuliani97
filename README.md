@@ -1,4 +1,4 @@
-<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 54, 54 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
+<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 64, 59 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
 
 <p align="center">
   <a href="https://vzuliani97.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-vzuliani97.github.io-0f766e?style=for-the-badge"></a>
@@ -12,9 +12,9 @@
 
 Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation · Spanish and Italian native, English C1
 
-| 123 | Since 2020 | 100 | C1 |
+| 138 | Since 2020 | 100 | C1 |
 |:---:|:---:|:---:|:---:|
-| automated tests across 3 portfolio systems (54 + 54 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
+| automated tests across 3 portfolio systems (64 + 59 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
 
 ## Selected work
 
@@ -31,7 +31,7 @@ Medellín, Colombia · Authorized to work in Europe · Open to remote work and r
 - Invoice PDF with each piece's photo, a CUFE calculation that matches the DIAN example and a QR. For demonstration only: not transmitted to or validated by the DIAN.
 - Docker Compose, CI with CodeQL, Gitleaks and an image-metadata check, and a simulated business day (`make demo`).
 
-`54 tests` · `44 real catalog pieces` · `CUFE = DIAN example` · `NestJS` · `React` · `PostgreSQL` · `S3` · `PDFKit` · `Docker`
+`64 tests` · `44 real catalog pieces` · `CUFE = DIAN example` · `NestJS` · `React` · `PostgreSQL` · `S3` · `PDFKit` · `Docker`
 
 <table>
   <tr>
@@ -91,7 +91,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 - Casino: a seamless wallet with idempotent, HMAC-signed provider callbacks and rollback tombstones; a lobby of five games with an animated slot machine.
 - Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements; idempotent sales; an HMAC-signed B2B API; a login lockout; CI images that Argo CD deploys in OpsCircuit.
 
-`54 tests` · `4 sports live` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
+`59 tests` · `4 sports live` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
 
 <table>
   <tr>
