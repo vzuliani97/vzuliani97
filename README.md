@@ -151,4 +151,4 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 Systems Engineer, Universidad de Medellín · Advanced Diploma of IT (Cyber Security), Sydney
 
-<sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic (production systems are confidential), except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission). AI-assisted; verified through tests and CI.</sub>
+<sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic (production systems are confidential), except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission).</sub>
