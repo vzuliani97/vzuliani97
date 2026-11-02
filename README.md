@@ -105,18 +105,20 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 [Case study](https://vzuliani97.github.io/work/nekobet/) · [Source](https://github.com/vzuliani97/nekobet) · [Every process, step by step](https://github.com/vzuliani97/nekobet#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/nekobet/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/nekobet/blob/main/DESIGN_WALKTHROUGH.md)
 
-### Escudo · Security Assessment of My Own Apps
+### Applied Cyber Security · My Diploma, Applied to My Own Apps
 
-**What it is for:** attacking NekoBet, Yamesi and the OpsCircuit cluster the way a tester would, then fixing what breaks and keeping the attacks as tests. It applies two units of my Advanced Diploma in Cyber Security: penetration testing (ICTCYS603) and cyber security risk assessment (ICTCYS608).
+**What it is for:** three units of my Advanced Diploma in Cyber Security applied to NekoBet, Yamesi and the OpsCircuit cluster: penetration testing (ICTCYS603), risk assessment (ICTCYS608) and identity management (ICTCYS604).
 
 **What I found and fixed:**
 - A captured partner sale, replayed with a new idempotency key, was charged twice. The key is now part of the HMAC signature.
 - The example JWT secret was accepted at startup, so anyone could sign an admin token. The API now refuses it, and `make .env` generates random secrets.
 - Uploaded photos kept their GPS coordinates, sellers received the costs behind the admin-only margin, and the cluster's ports were open to the local network.
 
-`12 findings, all fixed` · `9 scored with CVSS 3.1` · `OWASP WSTG` · `38 attacks in both apps' CI` · `Node.js` · `Trivy` · `OWASP ZAP`
+**What else it has:** a risk register with 12 risks rated before and after controls, and an identity and access review of every person and machine that can act on the systems.
 
-[Report and findings](https://github.com/vzuliani97/escudo) · [Methodology](https://github.com/vzuliani97/escudo/blob/main/METHODOLOGY.md)
+`12 findings, all fixed` · `9 scored with CVSS 3.1` · `OWASP WSTG` · `38 attacks in both apps' CI` · `risk register` · `identity review`
+
+[Overview](https://github.com/vzuliani97/applied-cybersecurity) · [Risk register](https://github.com/vzuliani97/applied-cybersecurity/blob/main/RISK_REGISTER.md) · [Identity review](https://github.com/vzuliani97/applied-cybersecurity/blob/main/IDENTITY_REVIEW.md) · [Methodology](https://github.com/vzuliani97/applied-cybersecurity/blob/main/METHODOLOGY.md)
 
 ## What I have worked on
 
@@ -177,7 +179,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 **Advanced Diploma of Information Technology (Cyber Security)**, ICT60220 · AQF Level 6 · ACBI, Sydney · 2024 – 2026 · completed
 - Units include penetration testing (ICTCYS603), cyber security risk assessment (ICTCYS608), identity management (ICTCYS604), cyber security operations (ICTCYS602), compliance with cyber security standards and law (ICTCYS606), virtualised security infrastructure (ICTCYS612) and secure encryption (ICTNWK537).
-- Applied in [Escudo](https://github.com/vzuliani97/escudo), a penetration test and risk assessment of my own applications.
+- Applied to my own systems in [applied-cybersecurity](https://github.com/vzuliani97/applied-cybersecurity): a penetration test, a risk register and an identity and access review.
 
 **General English Program (C1)** · Victory Institute, Sydney · 2023 – 2024
 
