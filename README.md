@@ -10,6 +10,8 @@
 
 **Software Engineer: Full Stack, Cloud & DevOps.** I build, deploy and operate full-stack applications, APIs and cloud infrastructure with TypeScript, Node.js, React and AWS.
 
+Systems Engineer (Universidad de Medellín) · Advanced Diploma of IT in Cyber Security (Australia, AQF Level 6)
+
 Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation · Spanish and Italian native, English C1
 
 | 139 | Since 2020 | 100 | C1 |
@@ -105,7 +107,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 ### Escudo · Security Assessment of My Own Apps
 
-**What it is for:** attacking NekoBet, Yamesi and the OpsCircuit cluster the way a tester would, then fixing what breaks and keeping the attacks as tests.
+**What it is for:** attacking NekoBet, Yamesi and the OpsCircuit cluster the way a tester would, then fixing what breaks and keeping the attacks as tests. It applies two units of my Advanced Diploma in Cyber Security: penetration testing (ICTCYS603) and cyber security risk assessment (ICTCYS608).
 
 **What I found and fixed:**
 - A captured partner sale, replayed with a new idempotency key, was charged twice. The key is now part of the HMAC signature.
@@ -160,8 +162,23 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
+**Security: diploma and portfolio**
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=trivy&logoColor=white)
+![CodeQL](https://img.shields.io/badge/CodeQL-2F3337?style=flat-square&logo=github&logoColor=white)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-5A2D82?style=flat-square)
+![Kyverno](https://img.shields.io/badge/Kyverno-1F6FEB?style=flat-square)
+![cosign](https://img.shields.io/badge/cosign_(Sigstore)-2E3B4E?style=flat-square)
+![CVSS 3.1](https://img.shields.io/badge/CVSS_3.1-B91C1C?style=flat-square)
+
 ## Education
 
-Systems Engineer, Universidad de Medellín · Advanced Diploma of IT (Cyber Security), ICT60220, AQF Level 6, completed at ACBI, Sydney; units include penetration testing, risk assessment and identity management
+**Systems Engineering** (Ingeniería de Sistemas) · Universidad de Medellín, Colombia · 2018 – 2023
+
+**Advanced Diploma of Information Technology (Cyber Security)**, ICT60220 · AQF Level 6 · ACBI, Sydney · 2024 – 2026 · completed
+- Units include penetration testing (ICTCYS603), cyber security risk assessment (ICTCYS608), identity management (ICTCYS604), cyber security operations (ICTCYS602), compliance with cyber security standards and law (ICTCYS606), virtualised security infrastructure (ICTCYS612) and secure encryption (ICTNWK537).
+- Applied in [Escudo](https://github.com/vzuliani97/escudo), a penetration test and risk assessment of my own applications.
+
+**General English Program (C1)** · Victory Institute, Sydney · 2023 – 2024
 
 <sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic (production systems are confidential), except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission).</sub>
