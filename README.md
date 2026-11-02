@@ -162,6 +162,6 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 
 ## Education
 
-Systems Engineer, Universidad de Medellín · Advanced Diploma of IT (Cyber Security), Sydney
+Systems Engineer, Universidad de Medellín · Advanced Diploma of IT (Cyber Security), ICT60220, AQF Level 6, completed at ACBI, Sydney
 
 <sub>Portfolio projects are independent reconstructions with no employer code. Their data is synthetic (production systems are confidential), except the Yamesi Core demo catalog (© Inversiones Zuliani S.A.S., used with permission).</sub>
