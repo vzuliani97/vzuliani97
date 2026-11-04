@@ -1,4 +1,4 @@
-<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud and DevOps. A terminal shows 64, 60 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
+<a href="https://vzuliani97.github.io"><img src="assets/banner.jpg" width="100%" alt="Valter Zuliani, Software Engineer: Full Stack, Cloud, DevOps and Security. A terminal shows 74, 69 and 15 passing tests in three repositories and a Lighthouse score of 100."></a>
 
 <p align="center">
   <a href="https://vzuliani97.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-vzuliani97.github.io-0f766e?style=for-the-badge"></a>
@@ -8,15 +8,17 @@
 
 # Hi, I'm Valter
 
-**Software Engineer: Full Stack, Cloud & DevOps.** I build, deploy and operate full-stack applications, APIs and cloud infrastructure with TypeScript, Node.js, React and AWS.
+**Software Engineer: Full Stack, Cloud, DevOps & Security.** I build, deploy and operate full-stack applications, APIs and cloud infrastructure with TypeScript, Node.js, React and AWS, and I test their security: my Advanced Diploma in Cyber Security, applied to my own systems.
+
+**Try it online:** [Yamesi Core](https://yamesi.netlify.app) · [NekoBet](https://nekobet.netlify.app) (its live board opens without an account). Free hosting with synthetic data: the first visit can take about a minute.
 
 Systems Engineer (Universidad de Medellín) · Advanced Diploma of IT in Cyber Security (Australia, AQF Level 6)
 
 Medellín, Colombia · Authorized to work in Europe · Open to remote work and relocation · Spanish and Italian native, English C1
 
-| 139 | Since 2020 | 100 | C1 |
+| 158 | Since 2020 | 100 | C1 |
 |:---:|:---:|:---:|:---:|
-| automated tests across 3 portfolio systems (64 + 60 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
+| automated tests across 3 portfolio systems (74 + 69 + 15) | professional software experience | mobile Lighthouse on 3 routes of my portfolio, measured 1 Nov 2026 | English, with native Spanish and Italian |
 
 ## Selected work
 
@@ -33,7 +35,7 @@ Medellín, Colombia · Authorized to work in Europe · Open to remote work and r
 - Invoice PDF with each piece's photo, a CUFE calculation that matches the DIAN example and a QR. For demonstration only: not transmitted to or validated by the DIAN.
 - Docker Compose, CI with CodeQL, Gitleaks and an image-metadata check, and a simulated business day (`make demo`).
 
-`64 tests` · `44 real catalog pieces` · `CUFE = DIAN example` · `NestJS` · `React` · `PostgreSQL` · `S3` · `PDFKit` · `Docker`
+`74 tests` · `44 real catalog pieces` · `CUFE = DIAN example` · `NestJS` · `React` · `PostgreSQL` · `S3` · `PDFKit` · `Docker`
 
 <table>
   <tr>
@@ -54,7 +56,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
   <img src="assets/catalog/top-ani-36.jpg" width="15%" alt="Butterfly studs">
 </p>
 
-[Case study](https://vzuliani97.github.io/work/yamesi/) · [Source](https://github.com/vzuliani97/yamesi) · [Every process, step by step](https://github.com/vzuliani97/yamesi#processes-step-by-step) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
+**[Try it online](https://yamesi.netlify.app)** · [Case study](https://vzuliani97.github.io/work/yamesi/) · [Source](https://github.com/vzuliani97/yamesi) · [Every process, step by step](https://github.com/vzuliani97/yamesi#processes-step-by-step) · [Design walkthrough](https://github.com/vzuliani97/yamesi/blob/main/DESIGN_WALKTHROUGH.md)
 
 ### OpsCircuit · Cloud Delivery & Incident Automation Lab
 
@@ -93,7 +95,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 - Casino: a seamless wallet with idempotent, HMAC-signed provider callbacks and rollback tombstones; a lobby of five games with an animated slot machine.
 - Balance and ledger: one conditional `UPDATE`, `CHECK` constraints and append-only movements; idempotent sales; an HMAC-signed B2B API; a login lockout; CI images that Argo CD deploys in OpsCircuit.
 
-`60 tests` · `4 sports live` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
+`69 tests` · `4 sports live` · `70 retries → 1 sale` · `NestJS` · `PostgreSQL` · `React` · `SSE` · `HMAC` · `Docker`
 
 <table>
   <tr>
@@ -103,7 +105,7 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
   </tr>
 </table>
 
-[Case study](https://vzuliani97.github.io/work/nekobet/) · [Source](https://github.com/vzuliani97/nekobet) · [Every process, step by step](https://github.com/vzuliani97/nekobet#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/nekobet/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/nekobet/blob/main/DESIGN_WALKTHROUGH.md)
+**[Try it online](https://nekobet.netlify.app)** · [Case study](https://vzuliani97.github.io/work/nekobet/) · [Source](https://github.com/vzuliani97/nekobet) · [Every process, step by step](https://github.com/vzuliani97/nekobet#processes-step-by-step) · [Concurrency experiment](https://github.com/vzuliani97/nekobet/blob/main/docs/concurrency-experiment.md) (local and reproducible, not a production benchmark) · [Design walkthrough](https://github.com/vzuliani97/nekobet/blob/main/DESIGN_WALKTHROUGH.md)
 
 ### Applied Cyber Security · My Diploma, Applied to My Own Apps
 
@@ -115,6 +117,8 @@ Built for a real store: the demo runs on 44 pieces from the public catalog of Jo
 - Uploaded photos kept their GPS coordinates, sellers received the costs behind the admin-only margin, and the cluster's ports were open to the local network.
 
 **What else it has:** a risk register with 12 risks rated before and after controls, and an identity and access review of every person and machine that can act on the systems.
+
+**Online too:** Yamesi and NekoBet keep these controls on the internet and add exact CORS, a Content Security Policy limited to their API, per-client request limits, and a database-name check before any data reset.
 
 `12 findings, all fixed` · `9 scored with CVSS 3.1` · `OWASP WSTG` · `38 attacks in both apps' CI` · `risk register` · `identity review`
 
